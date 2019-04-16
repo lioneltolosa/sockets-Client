@@ -8,9 +8,8 @@ import { WebsocketService } from './services/websocket.service';
 })
 export class AppComponent implements OnInit {
 
-    constructor( public wsService: WebsocketService ) {}
+    constructor( public wsService: WebsocketService) {}
 
     ngOnInit() {
-
     }
 }
